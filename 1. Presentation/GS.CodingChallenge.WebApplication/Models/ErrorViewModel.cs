@@ -1,6 +1,6 @@
 using System;
 
-namespace CodingChallenge.Models
+namespace GS.CodingChallenge.WebApplication.Models
 {
     public class ErrorViewModel
     {

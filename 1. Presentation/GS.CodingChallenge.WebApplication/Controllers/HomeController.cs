@@ -1,12 +1,8 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Diagnostics;
-using System.Linq;
-using System.Threading.Tasks;
+﻿using GS.CodingChallenge.WebApplication.Models;
 using Microsoft.AspNetCore.Mvc;
-using CodingChallenge.Models;
+using System.Diagnostics;
 
-namespace CodingChallenge.Controllers
+namespace GS.CodingChallenge.WebApplication.Controllers
 {
     public class HomeController : Controller
     {

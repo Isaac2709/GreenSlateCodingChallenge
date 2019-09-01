@@ -10,7 +10,7 @@ using Microsoft.AspNetCore.Mvc;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 
-namespace CodingChallenge
+namespace GS.CodingChallenge.WebApplication
 {
     public class Startup
     {

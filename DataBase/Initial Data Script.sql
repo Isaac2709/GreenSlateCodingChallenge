@@ -29,4 +29,16 @@ INSERT INTO [dbo].[UserProject]([UserId],[ProjectId],[IsActive],[AssignedDate]) 
 INSERT INTO [dbo].[UserProject]([UserId],[ProjectId],[IsActive],[AssignedDate]) VALUES (1, 5, 0, '01/12/2019')
 GO
 
+INSERT INTO [dbo].[UserProject]([UserId],[ProjectId],[IsActive],[AssignedDate]) VALUES (2, 1, 1, '01/03/2019')
+INSERT INTO [dbo].[UserProject]([UserId],[ProjectId],[IsActive],[AssignedDate]) VALUES (2, 2, 1, '01/11/2019')
+INSERT INTO [dbo].[UserProject]([UserId],[ProjectId],[IsActive],[AssignedDate]) VALUES (2, 3, 1, '08/11/2019')
+INSERT INTO [dbo].[UserProject]([UserId],[ProjectId],[IsActive],[AssignedDate]) VALUES (2, 4, 0, '16/11/2019')
+INSERT INTO [dbo].[UserProject]([UserId],[ProjectId],[IsActive],[AssignedDate]) VALUES (2, 5, 0, '28/11/2019')
+GO
 
+INSERT INTO [dbo].[UserProject]([UserId],[ProjectId],[IsActive],[AssignedDate]) VALUES (3, 1, 1, '01/09/2019')
+INSERT INTO [dbo].[UserProject]([UserId],[ProjectId],[IsActive],[AssignedDate]) VALUES (3, 2, 1, '14/11/2019')
+INSERT INTO [dbo].[UserProject]([UserId],[ProjectId],[IsActive],[AssignedDate]) VALUES (3, 3, 1, '30/12/2019')
+INSERT INTO [dbo].[UserProject]([UserId],[ProjectId],[IsActive],[AssignedDate]) VALUES (3, 4, 0, '15/12/2019')
+INSERT INTO [dbo].[UserProject]([UserId],[ProjectId],[IsActive],[AssignedDate]) VALUES (3, 5, 0, '01/12/2019')
+GO

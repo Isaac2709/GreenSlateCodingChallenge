@@ -4,4 +4,8 @@
     <TargetFramework>netcoreapp2.2</TargetFramework>
   </PropertyGroup>
 
+  <ItemGroup>
+    <ProjectReference Include="..\..\3. Domain\GS.CodingChallenge.Domain\GS.CodingChallenge.Domain.csproj" />
+  </ItemGroup>
+
 </Project>

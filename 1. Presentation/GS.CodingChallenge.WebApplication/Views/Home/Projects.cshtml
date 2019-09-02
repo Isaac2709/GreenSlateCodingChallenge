@@ -1,0 +1,97 @@
+﻿@{
+    ViewData["Title"] = "Index";
+}
+
+<h2>Projects</h2>
+
+<p>
+    <a asp-action="Create">Create New</a>
+</p>
+
+<div class="form-group">
+    <div class="dropdown">
+        <button class="btn btn-default dropdown-toggle" type="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="true">
+            --
+            <span class="caret"></span>
+        </button>
+        <ul class="dropdown-menu" aria-labelledby="dropdownUsersMenu" id="dropdownUsersMenu"></ul>
+    </div>
+</div>
+<table id="tableProjects" class="table table-striped table-bordered" style="width:100%">
+    <thead>
+        <tr>
+            <th>
+                Id
+            </th>
+            <th>
+                Start Date
+            </th>
+            <th>
+                Time To Start
+            </th>
+            <th>
+                End Date
+            </th>
+            <th>
+                Credits
+            </th>
+            <th>
+                Status
+            </th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <td>
+                1
+            </td>
+            <td>
+                StartDate
+            </td>
+            <td>
+                Time to start
+            </td>
+            <td>
+                End Date
+            </td>
+            <td>
+                Credits
+            </td>
+            <td>
+                Status
+            </td>
+        </tr>
+        @*@foreach (var item in Model) {
+                    <tr>
+                        <td>
+                            @Html.DisplayFor(modelItem => item.Id)
+                        </td>
+                        <td>
+                            @Html.DisplayFor(modelItem => item.StartDate)
+                        </td>
+                        <td>
+                            @Html.DisplayFor(modelItem => item.StartDate)
+                        </td>
+                        <td>
+                            @Html.DisplayFor(modelItem => item.EndDate)
+                        </td>
+                        <td>
+                            @Html.DisplayFor(modelItem => item.Credits)
+                        </td>
+                        <td>
+                            @Html.DisplayFor(modelItem => item.Credits)
+                        </td>
+                    </tr>
+            }*@
+    </tbody>
+</table>
+
+
+@section Scripts {
+    <script src="https://code.jquery.com/jquery-3.3.1.js"></script>
+    <script src="https://cdn.datatables.net/1.10.19/js/jquery.dataTables.min.js"></script>
+    <script src="https://cdn.datatables.net/1.10.19/js/dataTables.bootstrap.min.js"></script>    
+    
+    <script src="~/js/views/dropdown.js"></script>
+    <script src="~/js/views/projects/list.js"></script>
+}

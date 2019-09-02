@@ -3,11 +3,19 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.29020.237
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CodingChallenge", "CodingChallenge\CodingChallenge.csproj", "{94DDA77E-1CAD-446C-967F-25B50F93276C}"
-EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "1. Presentation", "1. Presentation", "{922CA677-727E-43D1-A292-4E31E9651B02}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "2. Application", "2. Application", "{8D537E51-1025-4D18-B857-01B9EF88BD4E}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "3. Domain", "3. Domain", "{A3B698E1-2FDF-4F02-8592-F06BB86706AB}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "4. Infrastructure", "4. Infrastructure", "{2A0B85A3-0B1F-472B-82AF-A15ABC1115C1}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "GS.CodingChallenge.Application", "2. Application\GS.CodingChallenge.Application\GS.CodingChallenge.Application.csproj", "{7AF2214F-65A8-4907-8807-B8FDBA3E24C9}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "GS.CodingChallenge.Domain", "3. Domain\GS.CodingChallenge.Domain\GS.CodingChallenge.Domain.csproj", "{157C6521-DA5B-481F-8E78-3A728C030AAE}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "GS.CodingChallenge.WebApplication", "1. Presentation\GS.CodingChallenge.WebApplication\GS.CodingChallenge.WebApplication.csproj", "{3A13ABDD-CD27-4F63-9A9B-72D7166035CA}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,13 +23,26 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{94DDA77E-1CAD-446C-967F-25B50F93276C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{94DDA77E-1CAD-446C-967F-25B50F93276C}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{94DDA77E-1CAD-446C-967F-25B50F93276C}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{94DDA77E-1CAD-446C-967F-25B50F93276C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7AF2214F-65A8-4907-8807-B8FDBA3E24C9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7AF2214F-65A8-4907-8807-B8FDBA3E24C9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7AF2214F-65A8-4907-8807-B8FDBA3E24C9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7AF2214F-65A8-4907-8807-B8FDBA3E24C9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{157C6521-DA5B-481F-8E78-3A728C030AAE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{157C6521-DA5B-481F-8E78-3A728C030AAE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{157C6521-DA5B-481F-8E78-3A728C030AAE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{157C6521-DA5B-481F-8E78-3A728C030AAE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3A13ABDD-CD27-4F63-9A9B-72D7166035CA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3A13ABDD-CD27-4F63-9A9B-72D7166035CA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3A13ABDD-CD27-4F63-9A9B-72D7166035CA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3A13ABDD-CD27-4F63-9A9B-72D7166035CA}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{7AF2214F-65A8-4907-8807-B8FDBA3E24C9} = {8D537E51-1025-4D18-B857-01B9EF88BD4E}
+		{157C6521-DA5B-481F-8E78-3A728C030AAE} = {A3B698E1-2FDF-4F02-8592-F06BB86706AB}
+		{3A13ABDD-CD27-4F63-9A9B-72D7166035CA} = {922CA677-727E-43D1-A292-4E31E9651B02}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {ED1FD721-BFC2-48F2-9279-7B4B145BEAD8}

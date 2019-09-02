@@ -9,8 +9,6 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "2. Application", "2. Applic
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "3. Domain", "3. Domain", "{A3B698E1-2FDF-4F02-8592-F06BB86706AB}"
 EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "4. Infrastructure", "4. Infrastructure", "{2A0B85A3-0B1F-472B-82AF-A15ABC1115C1}"
-EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "GS.CodingChallenge.Application", "2. Application\GS.CodingChallenge.Application\GS.CodingChallenge.Application.csproj", "{7AF2214F-65A8-4907-8807-B8FDBA3E24C9}"
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "GS.CodingChallenge.Domain", "3. Domain\GS.CodingChallenge.Domain\GS.CodingChallenge.Domain.csproj", "{157C6521-DA5B-481F-8E78-3A728C030AAE}"
